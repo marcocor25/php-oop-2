@@ -1,0 +1,15 @@
+Oggi pomeriggio provate ad immaginare quali sono le classi necessarie per creare uno shop online con le seguenti caratteristiche.
+
+- L’e-commerce vende prodotti per gli animali. I prodotti saranno oltre al cibo, anche giochi, cucce, etc.
+- L’utente potrà sia comprare i prodotti senza registrarsi, oppure iscriversi e ricevere il 20% di sconto su tutti i prodotti.
+- Il pagamento avviene con la carta di credito, che non deve essere scaduta.
+
+CONSIGLI:
+- Partite identificando le entità da rappresentare. Si parla di prodotti, quindi ci sarà una classe Prodotto? e le classi Carrello e Ordine?
+- Individuate le proprietà di ciascuna di queste e cercate di capire se possono essere rapporti di ereditarietà. Dobbiamo gestire utenti registrati e utenti non registrati, magari ci servono due classi?
+- E andate avanti pensando a i metodi necessari ad ogni classe per poter gestire i dati. Un utente dovra poter modificare o aggiungere un metodo di pagamento. La carta di credito dovra avere un metodo per controllare se è scaduta oppure no. Il carrello dovrà poter aggiungere o togliere prodotti, o generare un ordine… e così via..
+
+Buon lavoro.
+
+BONUS:
+- Alcuni prodotti (es. antipulci) avranno la caratteristica che saranno disponibili solo in un periodo particolare (es. da maggio ad agosto).
